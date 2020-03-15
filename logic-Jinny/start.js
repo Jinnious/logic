@@ -44,4 +44,3 @@ function displayNext() {
 //       x.style.display = "none";
 //     }
 //   }
-
