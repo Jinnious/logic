@@ -1,11 +1,12 @@
-#storyoption {
+.storyoption {
     justify-content: center;
     align-content: center;
     display: flex;
-    position: relative;
+    position: absolute;
+    flex-direction: row;
 }
 
-.story {
+#storyone {
     justify-content: center;
     align-content: center;
     text-align: center;
@@ -24,10 +25,36 @@ display:none;
    
 }
 
-.story:hover {
+#storytwo {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: 6vw;
+    padding: 5vw;
+    width: 30%;
+    height: 20%;
+    border: white 10px ;
+ background: linear-gradient(-90deg, #7666e7, #3f93fb, #8b46fc);
+ border-radius: 5em;
+  font:2vw system-ui;
+    letter-spacing: 0.5vw;
+    cursor: pointer;
+    color: white;
+display:none;
+   
+}
+.storyone:hover {
 
         background-color: white;
         background: none;
         border: #7666e7 solid 10px;
         color: #7666e7;
+}
+
+.storytwo:hover {
+
+    background-color: white;
+    background: none;
+    border: #7666e7 solid 10px;
+    color: #7666e7;
 }
