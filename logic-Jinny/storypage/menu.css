@@ -1,0 +1,24 @@
+#button_menu{
+    margin: 3vw;
+    background-color: transparent;
+    font-size: 2vw;
+    border: hidden;
+    color: white;
+    letter-spacing: 0.5vw;
+    cursor: pointer;
+  }
+  
+
+
+  #close {
+    background-color: linear-gradient(-90deg, #7666e7, #3f93fb, #8b46fc);
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 3vw;
+    background-image : url("https://s1.daumcdn.net/cfs.tistory/custom/blog/204/2048858/skin/images/close.png");
+    z-index : 1;
+
+  }
