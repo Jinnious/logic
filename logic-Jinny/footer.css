@@ -7,7 +7,7 @@
     position: absolute;
     height: 15vh;
     align-items: center;
-    /* display: none; */
+    display: none;
     }
     .buttonbacknext {
     position: relative;

@@ -1,4 +1,6 @@
-
+body{
+    margin: 0px;
+}
 @media (min-width :998px){
     #homepage
     {
@@ -46,6 +48,7 @@
     text-align: center;
     color: white;
     border-radius: 2em;
+    margin: 2vh;
   
 
 }
