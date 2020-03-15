@@ -43,7 +43,7 @@ display:none;
 display:none;
    
 }
-.storyone:hover {
+#storyone:hover {
 
         background-color: white;
         background: none;
@@ -51,7 +51,7 @@ display:none;
         color: #7666e7;
 }
 
-.storytwo:hover {
+#storytwo:hover {
 
     background-color: white;
     background: none;
