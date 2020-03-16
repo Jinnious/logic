@@ -1,19 +1,26 @@
-.storyoption {
+
+@media only screen and (min-width: 992px){
+
+#storyoptionpage {
+   
     justify-content: center;
     align-content: center;
     display: flex;
-    position: absolute;
+    margin-bottom: 5vh;
+    position: relative;
     flex-direction: row;
+   
 }
 
 #storyone {
     justify-content: center;
     align-content: center;
     text-align: center;
-    margin: 6vw;
+    margin: 0 15vw 5vh 10vw;
+
     padding: 5vw;
     width: 30%;
-    height: 20%;
+    height: 10%;
     border: white 10px ;
  background: linear-gradient(-90deg, #7666e7, #3f93fb, #8b46fc);
  border-radius: 5em;
@@ -29,10 +36,11 @@ display:none;
     justify-content: center;
     align-content: center;
     text-align: center;
-    margin: 6vw;
+
+    margin: 0 10vw 5vh 15vw;
     padding: 5vw;
     width: 30%;
-    height: 20%;
+    height: 10%;
     border: white 10px ;
  background: linear-gradient(-90deg, #7666e7, #3f93fb, #8b46fc);
  border-radius: 5em;
@@ -57,4 +65,6 @@ display:none;
     background: none;
     border: #7666e7 solid 10px;
     color: #7666e7;
+}
+
 }

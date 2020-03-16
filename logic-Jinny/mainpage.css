@@ -1,5 +1,5 @@
 
-@media (min-width :998px){
+@media only screen and (min-width: 992px){
     #homepage
     {
        
@@ -46,6 +46,7 @@
     text-align: center;
     color: white;
     border-radius: 2em;
+    margin: 15px;
   
 
 }
@@ -61,3 +62,4 @@
 .center_btn{
     text-align: center;
 }
+

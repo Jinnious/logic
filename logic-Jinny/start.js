@@ -10,6 +10,8 @@ function displayNext(){
     document.getElementById("logicpage").style.display = "none";
     document.getElementById("storyone").style.display = "block"; 
     document.getElementById("storytwo").style.display = "block";
+    document.getElementById("header").style.display = "block";
+    document.getElementById("bg").style.display = "block";
 }
 
 
