@@ -9,14 +9,15 @@ html {
   }
   #wave
 {
-    background: white;
+    /* background: white; */
+    height: 200px;
   }
 
  #bg {
     /* position: relative; */
     /* background: linear-gradient(-90deg, #7666e7, #3f93fb, #8b46fc); */
     color: #FFF;
-    
+    height: 200px;
     overflow: hidden;
   }
   
@@ -24,7 +25,7 @@ html {
     0% {
       transform: translate3d(0, -200px, 0);
     }
-    100% {
+   100% {
       transform: translate3d(1, 25px, 0);
     }
   }
