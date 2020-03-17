@@ -2,17 +2,20 @@
 
 
 .image {
-    margin: 0;
-    padding: 0;
-    justify-content: center;
-    align-self: center;
+    
     display: none;
 }
 
 }
 
 
+
 .image img {
+    top: 0;
+z-index: 1000;
+    padding: 0;
     width:70%;
     height :70%;
+    justify-content: center;
+    align-self: center;
 }
