@@ -130,9 +130,9 @@ var slideshows = [
 ];
 console.log(slideshows,slideshows[1].image);
 
-function storyOne(){
+function StoryOne(){
  
-    document.querySelector(".image img").src = slideshows[0].image;
+    document.querySelector("#storyoptionpage").src = slideshows[0].image;
 }
 
 function Next(){

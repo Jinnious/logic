@@ -1,5 +1,6 @@
 
 .footer {
+    margin-top: 5vh;
     display:flex;
     bottom: 0;
     /* background-color: antiquewhite; */
