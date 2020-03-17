@@ -130,7 +130,7 @@ var slideshows = [
 ];
 console.log(slideshows,slideshows[1].image);
 
-function Start(){
+function storyOne(){
  
     document.querySelector(".image img").src = slideshows[0].image;
 }
