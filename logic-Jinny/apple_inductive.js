@@ -2,6 +2,6 @@
 
 function StoryOne(){
     
-    document.querySelector("#storyone").element.style.property = "first/firstpage.svg";
+    document.querySelector(".image img").style.disply = "block"
 }
 

@@ -4,6 +4,8 @@ function start(){
     document.getElementById("homepage").style.display = "none";
     document.getElementById("button_next").style.display = "block";
     document.getElementById("button_back").style.display = "block";
+    
+
 }
 
 function displayNext(){
@@ -12,6 +14,12 @@ function displayNext(){
     document.getElementById("storytwo").style.display = "block";
     document.getElementById("header").style.display = "block";
     document.getElementById("bg").style.display = "block";
+}
+
+
+function StoryOne(){
+    
+    document.querySelector(".image img").style.display = "block";
 }
 
 
