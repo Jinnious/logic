@@ -160,7 +160,6 @@ function displayNext(){
     if(index >= slideshows.length){
         index = 0;
     }
-
     document.querySelector(".image img").src = slideshows[index].image;
 }
 
