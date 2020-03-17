@@ -2,7 +2,7 @@
 var index = 0;
 var slideshows = [
 {
-    image:"first/firstpage.svg"
+    image:"one/first/firstpage.svg"
 },
 {
     image:"first/secondpage_1.svg"
@@ -136,7 +136,7 @@ function StoryOne(){
     document.querySelector(".image img").src = slideshows[0].image;
 }
 
-function displayNext(){
+function Next(){
     index++;
     if(index >= slideshows.length){
         index = 0;
