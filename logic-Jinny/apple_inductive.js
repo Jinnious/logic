@@ -139,6 +139,15 @@ function StoryOne(){
    
 }
 
+
+function StoryTwo(){
+  
+    document.querySelector(".image img").src = slideshows[28].image;
+    document.getElementById("storyoptionpage").style.display = "none"; 
+    document.querySelector(".image").style.display = "block";
+   
+}
+
 function displayNext(){
 
     document.getElementById("logicpage").style.display = "none";
@@ -151,7 +160,6 @@ function displayNext(){
     if(index >= slideshows.length){
         index = 0;
     }
-
     document.querySelector(".image img").src = slideshows[index].image;
 }
 
