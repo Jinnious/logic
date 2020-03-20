@@ -1,15 +1,11 @@
 
 @media only screen and (min-width: 992px){
-
-    html{
-        width: 100%;
-        height: 100%;
-    }
     #homepage
     {
        
         background-image: linear-gradient(-90deg, #7666e7, #3f93fb, #8b46fc)
         
+
 
     }
 #mainpage {

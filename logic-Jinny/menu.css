@@ -82,26 +82,19 @@
       opacity: 0;
       left: 0;
       margin-top: 3vh;
-      height: 60%;
     
    
     }
 .nav-list{
-  color: white;
-top: 50%;
-  bottom: 0;
+  top: 50%;
   display: inline-block;
   text-align: center;
-  justify-content: left;
-  
-
 }
-    .item 
+    .item
     {
-      left: 0;
-      top: 30%;
       position: relative;
       list-style-type: none;
+      text-decoration: none;
       text-emphasis: none;
       margin-top: 5vh;
       font-size: 20px;
@@ -109,14 +102,6 @@ top: 50%;
     }
 
     .item a{
-      font: 400 2vw system-ui;
-      border-radius: 100%;
-      justify-content: center;
-      align-content: center;
-      text-align: center;
-      background-color: #7666e7 ;
-      border: white solid 5px;
       text-decoration: none;
-      color: white;
-      padding: 20px;
+
     }
