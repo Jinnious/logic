@@ -156,12 +156,22 @@ function displayNext(){
     document.getElementById("header").style.display = "block";
     document.getElementById("bg").style.display = "block";
 
-    index++;
-    if(index >= slideshows.length){
-        index = 0;
-    }
-    document.querySelector(".image img").src = slideshows[index].image;
+    // index++;
+    // if(index >= slideshows.length){
+    //     index = 0;
+    // }
+    // document.querySelector(".image img").src = slideshows[index].image;
 }
+
+
+var index = 0;
+function displayNext() {
+    index++;
+    document.querySelector(".image img").scr = slideshows[index].image;
+}
+
+
+
 
 function Back(){
     index--;
