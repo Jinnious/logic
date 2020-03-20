@@ -1,5 +1,5 @@
 
-var index = 0;
+var index = [0][28];
 var slideshows = [
 {
     image:"one/first/firstpage.svg"
@@ -136,42 +136,43 @@ function StoryOne(){
     document.querySelector(".image img").src = slideshows[0].image;
     document.getElementById("storyoptionpage").style.display = "none"; 
     document.querySelector(".image").style.display = "block";
-   
+   index=0;
 }
 
+
+function storyNext() {
+
+    document.querySelector(".image img").src = slideshows[0].image;
+    index=0;
+}
 
 function StoryTwo(){
   
     document.querySelector(".image img").src = slideshows[28].image;
     document.getElementById("storyoptionpage").style.display = "none"; 
     document.querySelector(".image").style.display = "block";
-   
+   index=28;
 }
 
 function displayNext(){
 
-    document.getElementById("logicpage").style.display = "none";
-    document.getElementById("storyone").style.display = "block"; 
-    document.getElementById("storytwo").style.display = "block";
-    document.getElementById("header").style.display = "block";
-    document.getElementById("bg").style.display = "block";
+   afterLogic();
 
-    // index++;
-    // if(index >= slideshows.length){
-    //     index = 0;
-    // }
-    // document.querySelector(".image img").src = slideshows[index].image;
-}
-
-
-var index = 0;
-function displayNext() {
     index++;
-    document.querySelector(".image img").scr = slideshows[index].image;
+    if(index >= slideshows.length){
+        index = [0][28];
+    }
+    document.querySelector(".image img").src = slideshows[index].image;
 }
 
 
-
+function afterLogic(){
+document.getElementById("logicpage").style.display = "none";
+document.getElementById("storyone").style.display = "block"; 
+document.getElementById("storytwo").style.display = "block";
+document.getElementById("header").style.display = "block";
+document.getElementById("bg").style.display = "block";
+}
 
 function Back(){
     index--;
